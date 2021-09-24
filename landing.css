@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+body {
+    text-align: center;
+    padding: 4em;
+    font-family: 'Anonymous Pro', monospace;  
+    background-color: #262626;  
+}
+
+* {
+    text-decoration: none;
+    color: whitesmoke;
+    line-height: 4rem;
+}
+
+section {
+	width: 30%;
+	margin: 0 auto;
+	margin-top: 5%;
+}
+
+div {
+	float: left;
+	width: 5%;
+	height: 25px;
+	background-color: #E1E4E6;
+	border-radius: 2px;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	animation: timer 10s infinite;
+}
+
+.div2 {
+	animation: timer 10s 1s infinite;
+}
+
+.div3 {
+	animation: timer 10s 2s infinite;
+}
+
+.div4 {
+	animation: timer 10s 3s infinite;
+}
+
+.div5 {
+	animation: timer 10s 4s infinite;
+}
+
+.div6 {
+	animation: timer 10s 5s infinite;
+}
+
+.div7 {
+	animation: timer 10s 6s infinite;
+}
+
+.div8 {
+	animation: timer 10s 7s infinite;
+}
+
+.div9 {
+	animation: timer 10s 8s infinite;
+}
+
+.div10 {
+	animation: timer 10s 9s infinite;
+}
+
+@keyframes timer {
+	0% { background-color: #E1E4E6; }
+	5% { background-color: #E80C7A; transform:     scale(1.1, 1.1); }
+	10% { background-color: #E1E4E6; }
+}
